@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initialscale=1">
+ <title>Bootstrap 101 Template</title>
+
+ <!-- Bootstrap -->
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+
+ <style>
+	 	 .large { font-size:200%;
+			 color:red;
+			 }
+</style>
+
+ </head>
+ 
+ <body data-spy="scroll" data-target=".navbar-collapse">
+
+ <div class="navbar navbar-default">
+	<div class="container">
+		<div class="navbar-header">
+			<button class="navbar-toggle collapsed" data-toggle="collapse" datatarget="#navbar-collapse-elements">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand">MyApp</a>
+		</div>
+
+		<div class="collapse navbar-collapse" id="navbar-collapse-elements">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="">Home</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Download The App</a></li>
+			</ul>
+ 
+			<form class="navbar-form navbar-right">
+				<div class="form-group">
+					<input type="email" placeholder="Email" class="form-control" />
+				</div>
+				<div class="form-group">
+					<input type="password" placeholder="Password" class="form-control" />
+				</div>
+				<button type="submit" class="btn btn-success">Log In</button>
+			</form>
+		</div>
+	</div>
+ </div>
+
+
+ <div class="container">
+ 
+	<h1>Hello, world!</h1>
+	<span class="glyphicon glyphicon-search large"></span>
+	
+	<form>
+		<div class="input-group">
+			<span class="glyphicon glyphicon-comment input-group-addon"></span>
+			<input class="form-control" type="text" />
+		</div>
+		<button type="button" class="btn btn-success">
+			<span class="glyphicon glyphicon-calendar"></span> Calendar
+		</button>
+	</form>
+	
+	<br />
+	
+	<div class="alert alert-danger alert-dismissable">
+		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		You’ve done it!
+	</div>
+	
+	<br />
+	
+	<ul class="list-group">
+	<li class="list-group-item">Inbox <span class="badge">14</span></li>
+	<li class="list-group-item">Sent Items</li>
+	<li class="list-group-item">Item 3</li>
+	<li class="list-group-item">Item 4</li>
+	</ul>
+	
+</div>
+
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+ <!-- Include all compiled plugins (below), or include individual files as needed -->
+ <script src="js/bootstrap.min.js"></script>
+
+
+
+ </body>
+</html>
